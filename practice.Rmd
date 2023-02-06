@@ -1,0 +1,26 @@
+---
+title: "practice"
+author: "Emma"
+date: "2023-02-06"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+# Write a function to computer the Euclidean norm of a vector (square root of sum of squared elements in a vector)
+
+
+... {r}
+EuclideanNorm = function(x) {
+  result = sqrt(sum(x^2))
+  return(result)
+}
+
+EuclideanNorm(c(1 : 5))
+
+EuclideanNorm(10)
+
